@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="GlobalTec" id="hyNsldfAK8KkTgEF7biS">
-    <mxGraphModel dx="4176" dy="3601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1606" dy="2104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -645,9 +645,6 @@
         <mxCell id="ycAkcSyMC0RUxKSHGYEL-142" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Cifrado de datos en reposo habilitado (AES-256), protege los datos almacenados en discos, bases de datos. Habilitando el cifrado hacia los servicios Amazon RDS y Amazon S3.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3610" y="1090.36" width="540" height="91.76" as="geometry" />
         </mxCell>
-        <mxCell id="ycAkcSyMC0RUxKSHGYEL-145" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;10&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
-          <mxGeometry x="3527.78" y="1234.47" width="52.48" height="52.48" as="geometry" />
-        </mxCell>
         <mxCell id="ycAkcSyMC0RUxKSHGYEL-148" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" edge="1" parent="1" source="ycAkcSyMC0RUxKSHGYEL-41" target="zIVaTTHmygs1Eu1QIAuW-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="970" as="sourcePoint" />
@@ -672,6 +669,15 @@
               <mxPoint x="300" y="1520" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ycAkcSyMC0RUxKSHGYEL-151" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="350.00000000000006" y="710.36" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ycAkcSyMC0RUxKSHGYEL-152" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="3530.64" y="1270" width="46.76" height="46.76" as="geometry" />
+        </mxCell>
+        <mxCell id="ycAkcSyMC0RUxKSHGYEL-153" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Amazon CloudWatch monitorea si se generan alertas.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Permite los tiempos de respuesta y tráfico entrante hacia el servicio ELB.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Permite el monitoreo y las alertas mandandolos hacia el servicio Amazon ECS, permitiendo que los datos sean escalables siguiendo con las métricas de seguridad.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Envía que los eventos de acceso y la carga de documentos, sean adecuados bajo las métricas de rendimiento de la base de datos, enviandolos a las zonas de disponibilidad generados por el servicio Amazon RDS.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="1208.86" width="540" height="195.49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
